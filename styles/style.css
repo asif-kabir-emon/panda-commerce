@@ -2,26 +2,26 @@ main {
   padding-top: 100px;
 }
 .purple-text-color {
-  color: #e03b8b;
+  color: #ff3786;
 }
 .purple-bg-color {
-  background-color: #e03b8b;
+  background-color: #ff3383;
 }
 .cream-bg-color {
-  background-color: #feeae9;
+  background-color: #fff2f1;
 }
 /* Category - 1 */
 .category-1 {
-  background-color: orange;
+  background-color: #ffb02a;
 }
 /* Category - 2 */
 .category-2 {
-  background-color: orchid;
+  background-color: #ff3d8a;
 }
 
 /* Category - 3 */
 .category-3 {
-  background-color: blue;
+  background-color: #4154fc;
 }
 /* Shoes and bags section */
 .shoes-bags-section {
