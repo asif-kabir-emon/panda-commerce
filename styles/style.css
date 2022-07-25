@@ -11,3 +11,11 @@
 .category-3 {
   background-color: blue;
 }
+/* Shoes and bags section */
+.shoes-bags-section {
+  background-color: rgb(211, 211, 211, 0.1);
+}
+/* See All - btn color  */
+.see-all-btn {
+  color: orange;
+}
