@@ -34,6 +34,7 @@ main {
 /* Contact Form Style */
 .contact-form {
   padding: 110px 0;
+  margin: 2px 2px;
   background-color: #fceae8;
 }
 .email-input-box {
