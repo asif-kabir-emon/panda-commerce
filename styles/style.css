@@ -19,3 +19,18 @@
 .see-all-btn {
   color: orange;
 }
+/* Contact Form Style */
+.contact-form {
+  padding: 110px 0;
+  background-color: #fceae8;
+}
+.email-input-box {
+  font-size: 30px;
+  min-width: 150px;
+  max-width: 400px;
+}
+.send-btn {
+  font-size: 30px;
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  padding: 10px 30px;
+}
