@@ -15,8 +15,8 @@
   <body>
     <header class="container">
       <!-- Navigation bar start -->
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg fixed-top bg-light py-3">
+        <div class="container">
           <div class="navbar-brand">
             <img src="images/logo.png" alt="" />
           </div>
@@ -37,13 +37,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">About Us</a>
+                <a class="nav-link" href="#backpacks">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contact Us</a>
+                <a class="nav-link" href="#subscribe-form">Subscribe</a>
               </li>
             </ul>
           </div>
@@ -53,7 +53,7 @@
     </header>
     <main>
       <!-- Slider start -->
-      <section class="container pt-5">
+      <section class="container">
         <div
           id="carouselExampleControls"
           class="carousel slide"
@@ -227,7 +227,7 @@
       <!-- categories end -->
       <section class="shoes-bags-section my-5">
         <!-- Shoes section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
           <div
             class="pt-5 pb-4 d-flex align-items-center justify-content-between"
           >
@@ -344,7 +344,7 @@
         </section>
         <!-- Shoes section end -->
         <!-- Backpack section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="backpacks">
           <div
             class="pt-5 pb-4 d-flex align-items-center justify-content-between"
           >
@@ -462,7 +462,10 @@
         <!-- Backpack section end -->
       </section>
     </main>
-    <div class="container my-5 text-center rounded contact-form">
+    <div
+      class="container my-5 text-center rounded contact-form"
+      id="subscribe-form"
+    >
       <h1>LET'S STAY IN TOUCH</h1>
       <h5 class="text-muted">Get updates on sales specials and more</h5>
       <div class="input-group my-3 px-5 d-flex justify-content-center">
